@@ -1,0 +1,168 @@
+html {font-family: century gothic;}
+
+h1 {
+	font-size: 55px;
+	font-weight: bold;
+}
+#WTF {
+	padding-left: 5%;
+	padding-top: 20px;
+}
+
+#logo {
+	max-width: 15%;
+}
+#logo2 {
+	max-width: 60%;
+}
+
+#menu {
+	float: right;
+	text-align: right;
+	padding-right: 15px;
+	width: 15%;
+	font-size: 20px;
+	color: black;
+}
+
+h2 {
+	font-size: 40px;
+}
+h3 {
+	font-size: 35px;
+}
+
+header, #pieddepage{
+	background: url(../img/Fond_Kraft.jpg);
+}
+header{
+	padding-bottom: 70px;
+}
+#pieddepage{
+	padding-bottom: 20px;
+}
+
+body {
+	background-color: black;
+}
+
+/* Défini le titre de chaque tuile de la page d'accueil + animations quand on passe la souris */
+div.destination div h3 a {
+	background-color: #ffffff;
+	padding: 15px;
+	opacity: 0.7;
+	color: black;
+}
+div.destination div h3 a:hover {
+	background-color: #777777;
+	padding: 15px;
+	opacity: 1;
+	color: white;
+	transition: 0.5s;
+}
+
+/* Défini le texte des tuiles d'accueil */
+div.introdestination {
+	background-color: #ffffffaa;
+	padding: 30px;
+	max-width: 700px;
+	margin-left: 100px;
+	margin-right: 100px;
+	margin-bottom: 30px;
+	font-size: 20px;
+	color: black;
+}
+
+div.gauche {
+	float: left;
+	width: 50%;
+}
+div.droite {
+	float: left;
+	width: 50%;
+}
+
+div.destination {
+	padding: 10px;
+}
+
+/**
+ * Défini les tuiles des destinations (avec images en background) de la page d'accueil
+ * ":hover" gère les animations et modifications quand tu passes la souris dessus
+*/
+div.destination div#islande {
+	background: url(../img/Islande.jpg) no-repeat;
+	background-size: cover;
+	min-height: 500px;
+	border: 30px solid black;
+	transition: 0.6s;
+}
+div.destination div#islande:hover {
+	background: url(../img/Islande.jpg) no-repeat;
+	background-size: cover;
+	min-height: 500px;
+	border: 2px solid black;
+	transition: 0.6s;
+}
+
+div.destination div#etatsunis {
+	background: url(../img/Orlando.jpg) no-repeat;
+	background-size: cover;
+	min-height: 500px;
+	border: 30px solid black;
+	transition: 0.6s;
+}
+div.destination div#etatsunis:hover {
+	background: url(../img/Orlando.jpg) no-repeat;
+	background-size: cover;
+	min-height: 500px;
+	border: 2px solid black;
+	transition: 0.6s;
+}
+
+div.destination div#singapour {
+	background: url(../img/Singapour.jpg) no-repeat;
+	background-size: cover;
+	min-height: 500px;
+	border: 30px solid black;
+	transition: 0.6s;
+}
+div.destination div#singapour:hover {
+	background: url(../img/Singapour.jpg) no-repeat;
+	background-size: cover;
+	min-height: 500px;
+	border: 2px solid black;
+	transition: 0.6s;
+}
+
+div#pieddepage {
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+
+#titrenewsletter {
+	padding-top: 10px;
+}
+
+#pieddepage form label {
+	font-weight: bold;
+}
+
+#pieddepage form input {
+	padding: 4px;
+}
+
+#inscription {
+	padding: 8px;
+}
+
+img.img {
+	padding: 30px;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
+/* Supprime le trait souligné sous un lien */
+a {
+	text-decoration: none;
+}
