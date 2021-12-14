@@ -1,26 +1,41 @@
 html {font-family: century gothic;}
 
+
+#entete {
+	min-height: 80px;
+	padding-left: 5%;
+	padding-bottom: 70px;
+}
+
+#logo {
+	padding-top: 20px;
+	float: left;
+	max-height: 100px;
+	min-width: 20px;
+}
+
+#titre {
+	float: left;
+	padding-left: 15%;
+}
+
+#entete, #pieddepage{
+	background: url(../img/Fond_Kraft.jpg);
+}
+
 /*centre le titre en blanc*/
 h1 {
 	font-size: 40px;
-	text-align: center;
-	color :white ;
+	color : #AACE3A;
 }
 
 /*sous titre en blanc, centré*/
 h2 {
-	font-size: 20px;
-	text-align: center;
+	font-size: 15px;
 	font-style: italic;
-	color : white;
+	color : black;
 }
 
-/*en tête*/
-header{
-	background-color: #808080;
-	height:80px;
-	padding-bottom: 50px;
-	}
 
 /*Met le fond en noir*/
 body {

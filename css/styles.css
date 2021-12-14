@@ -4,9 +4,11 @@ h1 {
 	font-size: 55px;
 	font-weight: bold;
 }
-#WTF {
+#entete {
+	height: 80px;
 	padding-left: 5%;
 	padding-top: 20px;
+	padding-bottom: 70px;
 }
 
 #logo {
@@ -32,12 +34,10 @@ h3 {
 	font-size: 35px;
 }
 
-header, #pieddepage{
+#entete, #pieddepage{
 	background: url(../img/Fond_Kraft.jpg);
 }
-header{
-	padding-bottom: 70px;
-}
+
 #pieddepage{
 	padding-bottom: 20px;
 }
