@@ -1,5 +1,33 @@
 html {font-family: century gothic;}
 
+#entete {
+	height: 80px;
+	padding-left: 5%;
+	padding-top: 10px;
+	padding-bottom: 70px;
+}
+
+#logo {
+	float: left;
+	max-width: 15%;
+	max-height: 135px;
+}
+
+#titre {
+	float: left;
+	text-align: left;
+	padding-left: 5%;
+}
+
+#entete, #pieddepage{
+	background: url(../img/Fond_Kraft.jpg);
+}
+
+#pieddepage{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
 /*centre le titre en blanc*/
 h1 {
 	font-size: 40px;
