@@ -152,6 +152,11 @@ div#pieddepage {
 	padding: 4px;
 }
 
+#lienformulaire {
+	text-decoration: underline;
+	font-weight: bold;
+}
+
 #inscription {
 	padding: 8px;
 }
