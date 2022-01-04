@@ -108,14 +108,14 @@ div.destination div#grece:hover {
 }
 
 div.destination div#lanzarote {
-	background: url(../img/Orlando.jpg) no-repeat;
+	background: url(../img/Lanzarote.jpg) no-repeat;
 	background-size: cover;
 	min-height: 500px;
 	border: 30px solid black;
 	transition: 0.6s;
 }
 div.destination div#lanzarote:hover {
-	background: url(../img/Orlando.jpg) no-repeat;
+	background: url(../img/Lanzarote.jpg) no-repeat;
 	background-size: cover;
 	min-height: 500px;
 	border: 2px solid black;
