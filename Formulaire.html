@@ -3,10 +3,17 @@
     <head>
     	<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" type="text/css" href="css\Formulaire.css">
+		<link rel="stylesheet" type="text/css" href="css/styles.css">
 		<title>Formulaire</title>
 
-		<script type="text/javascript">
+        <header  id="entete">
+        <img id="logo" src="img/WTF_Logo.png">
+        <img id="logo2" src="img/WTF_Logo2.png">
+        <div id="menu">
+        </header>
+		
+        <body  id="tableauformulaire">
+        <script type="text/javascript">
 
  
             var i = 0;
@@ -32,9 +39,6 @@
  
         </script>
 
-	
-	
- <body>
  	<center>
         <table border="1" id="kids">
             <tr>
@@ -61,5 +65,22 @@
         </table>
     </center>
     </body>
+<br><br>
+<center><div id="pieddepage">
+    <h2 id="titrenewsletter">Inscrivez-vous à notre Newsletter !</h2>
+    <form id="newsletter" method="post">
+        <label>Nom* :</label>
+        <input type="text" name="nom">
+        <label>Prénom* :</label>
+        <input type="text" name="prénom"><br><br>
+        <label>Adresse email* :</label>
+        <input type="email" name="mail">
+        <label>Téléphone :</label>
+        <input type="tel" name="tel" placeholder="Facultatif"><br><br>
+        <button id="inscription" type="submit">M'inscrire</button>
+    </form>
+        <center><h4>Pour rester informé de nos nouveaux coups de coeur !</h4></center>
+</center></div>
+
 </html>
 
