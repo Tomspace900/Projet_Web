@@ -4,12 +4,8 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="../css/Destination.css">
-	<script>
-		
-// Un exemple de fonction imbriquée
 
-	</script>
-
+<!-- titre de la page -->
 	<title>Norvège</title>
 
 <header  id="entete">
@@ -21,22 +17,33 @@
 </header>
 </head>
 
+<!-- On place les photo à l'aide d'un tableau -->
 <body>
 <table >
 	<tr>
 		<td  width =64% height = "64%" valign ="top" rowspan="2">
-			<img id="bergen"  img src="../img/Bergen.jpeg" width="100%" height="140%";  /></td>
+			<div class="contenant">
+			<img id="bergen" alt="image" img src="../img/Bergen.jpeg" width="100%" height="140%";  />
+			<div class="texte_centrer">Si vous n’êtes pas effrayés par la pluie je vous conseille d’aller à Bergen. En dehors du fait qu’elle est la ville la plus pluvieuse d’Europe, elle possède un grand marché au poisson, sur lequel vous pourrez vous arrêter manger. Elle se situe dans un fjord, vous offrant un cadre idyllique. Ses maisons colorées en bois, typiques des maisons typiques des pays nordiques, vous dépayseront</div>
+
+		</td>
 		<td  valign="top">
+			<div class="contenant">
 			<img src="../img/Flam_train.jpg" width="100%" height="100%">
+			<div class="texte_centrer">Flam a pour activité incontournable un tour de train qui vous emmène dans les hauteurs. Une fois arrivé en haut descendez soit à pied, soit à vélo les 20 km jusqu’à Flam. Une magnifique ballade au bord des rivières vous attendra.</div>
 		</td>
 	</tr>
 	<tr>
 		<td >
-		<img src="../img/ile_lofotaines.jpg" width="100%" height="50%"  /></td>
+			<div class="contenant">
+			<img src="../img/ile_lofotaines.jpg" width="100%" height="50%"  />
+			<div class="texte_centrer">Aux îles Lofoten, vous y trouverez des petits villages de pécheurs, d’ailleurs elles sont très sympas à louer comme logement là-bas. Ce sont des anciennes cabanes de pécheurs totalement réaménagées. Si l’univers du monde viking vous intéresse, je vous conseille d’aller visiter le musée de Lofotr, au programme lancé de haches, tour en drakkar, visite d’une reconstitution d’un village viking.</div>
+			</td>
 	</tr>
 </table>
 </body>
 
+<!-- Pied de page avec le lien pour le formulaire -->
 <center><div id="pieddepage">
 		<h4 id="formulaire">Et vous ? Quels sont vos coups de coeur ?</h4>
 		<h4>Remplissez ce <a id="lienformulaire" href="formulaire.html">formulaire</a> pour nous les faire découvrir !</h4>
