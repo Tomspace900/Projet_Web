@@ -20,14 +20,29 @@ h1 {
 
 #menu {
 	float: right;
-	text-align: right;
+	text-align: center;
 	padding-right: 15px;
-	width: 15%;
+	padding-bottom: 15px;
+	padding-top: 15px;
+	width: 20%;
+	color: black;
+	font-size: 150%;
+	background-color: white;
+	opacity: 0.6;
 }
 
-#apropos {
-	font-size: 20px;
-	color: black;
+#menu:hover {
+	float: right;
+	text-align: center;
+	padding-right: 15px;
+	padding-bottom: 15px;
+	padding-top: 15px;
+	width: 20%;
+	color: white;
+	font-size: 150%;
+	background-color: black;
+	opacity: 1;
+	transition: 0.5s;
 }
 
 h2 {
@@ -38,7 +53,7 @@ h3 {
 	font-size: 35px;
 }
 
-#entete, #pieddepage, #apropos, #accueil, #tableauformulaire {
+#entete, #pieddepage, #accueil, #tableauformulaire, #contenuapropos, #apropos {
 	background: url(../img/Fond_Kraft.jpg);
 }
 

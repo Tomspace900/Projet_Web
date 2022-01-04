@@ -34,6 +34,33 @@ html {font-family: century gothic;}
 	color: black;
 }
 
+#menu {
+	float: right;
+	text-align: center;
+	padding-right: 15px;
+	padding-bottom: 30px;
+	padding-top: 15px;
+	width: 20%;
+	color: black;
+	font-size: 150%;
+	background-color: white;
+	opacity: 0.6;
+}
+
+#menu:hover {
+	float: right;
+	text-align: center;
+	padding-right: 15px;
+	padding-bottom: 30px;
+	padding-top: 15px;
+	width: 20%;
+	color: white;
+	font-size: 150%;
+	background-color: black;
+	opacity: 1;
+	transition: 0.5s;
+}
+
 /*centre le titre en blanc*/
 h1 {
 	font-size: 40px;
