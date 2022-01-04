@@ -19,7 +19,7 @@ html {font-family: century gothic;}
 	padding-left: 5%;
 }
 
-#entete, #pieddepage{
+#entete, #pieddepage {
 	background: url(../img/Fond_Kraft.jpg);
 }
 
@@ -28,11 +28,17 @@ html {font-family: century gothic;}
 	padding-bottom: 20px;
 }
 
+#lienformulaire {
+	text-decoration: underline;
+	font-weight: bold;
+	color: black;
+}
+
 /*centre le titre en blanc*/
 h1 {
 	font-size: 40px;
 	text-align: center;
-	color :white ;
+	color : #85BE00 ;
 }
 
 /*sous titre en blanc, centré*/
@@ -40,7 +46,7 @@ h2 {
 	font-size: 20px;
 	text-align: center;
 	font-style: italic;
-	color : white;
+	color : black;
 }
 
 /*en tête*/

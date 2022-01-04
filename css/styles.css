@@ -5,7 +5,7 @@ h1 {
 	font-weight: bold;
 }
 #entete {
-	height: 80px;
+	min-height: 80px;
 	padding-left: 5%;
 	padding-top: 20px;
 	padding-bottom: 70px;
@@ -29,12 +29,13 @@ h1 {
 
 h2 {
 	font-size: 40px;
+	color: black;
 }
 h3 {
 	font-size: 35px;
 }
 
-#entete, #pieddepage{
+#entete, #pieddepage, #apropos, #accueil {
 	background: url(../img/Fond_Kraft.jpg);
 }
 
@@ -42,9 +43,7 @@ h3 {
 	padding-bottom: 20px;
 }
 
-body {
-	background-color: black;
-}
+
 
 /* Défini le titre de chaque tuile de la page d'accueil + animations quand on passe la souris */
 div.destination div h3 a {
@@ -54,7 +53,7 @@ div.destination div h3 a {
 	color: black;
 }
 div.destination div h3 a:hover {
-	background-color: #777777;
+	background-color: black;
 	padding: 15px;
 	opacity: 1;
 	color: white;
@@ -90,6 +89,51 @@ div.destination {
  * Défini les tuiles des destinations (avec images en background) de la page d'accueil
  * ":hover" gère les animations et modifications quand tu passes la souris dessus
 */
+div.destination div#grece {
+	background: url(../img/Islande.jpg) no-repeat;
+	background-size: cover;
+	min-height: 500px;
+	border: 30px solid black;
+	transition: 0.6s;
+}
+div.destination div#grece:hover {
+	background: url(../img/Islande.jpg) no-repeat;
+	background-size: cover;
+	min-height: 500px;
+	border: 2px solid black;
+	transition: 0.6s;
+}
+
+div.destination div#lanzarote {
+	background: url(../img/Orlando.jpg) no-repeat;
+	background-size: cover;
+	min-height: 500px;
+	border: 30px solid black;
+	transition: 0.6s;
+}
+div.destination div#lanzarote:hover {
+	background: url(../img/Orlando.jpg) no-repeat;
+	background-size: cover;
+	min-height: 500px;
+	border: 2px solid black;
+	transition: 0.6s;
+}
+
+div.destination div#norvege {
+	background: url(../img/Singapour.jpg) no-repeat;
+	background-size: cover;
+	min-height: 500px;
+	border: 30px solid black;
+	transition: 0.6s;
+}
+div.destination div#norvege:hover {
+	background: url(../img/Singapour.jpg) no-repeat;
+	background-size: cover;
+	min-height: 500px;
+	border: 2px solid black;
+	transition: 0.6s;
+}
+
 div.destination div#islande {
 	background: url(../img/Islande.jpg) no-repeat;
 	background-size: cover;
@@ -160,6 +204,19 @@ div#pieddepage {
 
 #inscription {
 	padding: 8px;
+}
+
+#contenuapropos {
+	padding-left: 4%;
+	padding-right: 4%;
+}
+
+#thomas {
+	float: left;
+}
+
+#ambre {
+	float: right;
 }
 
 img.img {

@@ -11,13 +11,15 @@
 	</script>
 
 	<title>Islande</title>
-
-<header >
+<header  id="entete">
+	<a href="../Page_daccueil.html"><img id="logo" src="../img/WTF_Logo.png"></a>
+	<div id="titre">
 	<h1>Islande</h1>
-	<h2>Au plus près de la nature</h2>
+	<h2>Une nature époustouflante</h2>
+	</div>
 </header>
 
-
+<body>
 <table >
 	<tr>
 		<td  width =64% height = "64%" valign ="top" rowspan="2">
@@ -33,17 +35,10 @@
 	</td>
 	</tr>
 </table>
-
-
-<body>
-  
-  <h2>Commentaires:</h2>
-  <form method="POST">
-     <input type="text" name="pseudo" placeholder="Votre pseudo" /><br />
-     <textarea name="commentaire" placeholder="Votre commentaire..."></textarea><br />
-     <input type="submit" value="Poster mon commentaire" name="submit_commentaire" />
-  </form>
-  <?php if(isset($c_msg)) { echo $c_msg; } ?>
-  <br /><br />
-  
 </body>
+
+<center><div id="pieddepage">
+		<h4 id="formulaire">Et vous ? Quels sont vos coups de coeur ?</h4>
+		<h4>Remplissez ce <a id="lienformulaire" href="formulaire.html">formulaire</a> pour nous les faire découvrir !</h4>
+</center></div>
+</html>
